@@ -29,10 +29,10 @@ h.delete(:y)
 puts h
 
 h.each do |key, value|
-  if key == :z
-    puts 'yeeah'
+  puts 'yeeah' if key == :z
+
 end
-end
+
 
 a = h.invert
 puts a
